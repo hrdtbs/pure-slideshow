@@ -1,0 +1,16 @@
+.slideshow-ui{
+    overflow-x: auto;
+    overflow-y: hidden;
+    overscroll-behavior: contain;
+    scroll-snap-type: x mandatory;
+    scroll-behavior :smooth;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+
+.slideshow-ui > *{
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+}
+
